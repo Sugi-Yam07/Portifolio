@@ -61,12 +61,12 @@ themeToggleBtn.addEventListener("click", () => {
 /* ------------------ TROCA DE IDIOMA ------------------ */
 const translations = {
     pt: {
-        logo: "Seu Nome",
+        logo: "Portifólio Profissional",
         menuSobre: "Sobre",
         menuSkills: "Skills",
         menuProjetos: "Projetos",
         menuContato: "Contato",
-        heroTitle: "Olá! Eu sou <span>Seu Nome</span>",
+        heroTitle: "Olá! Eu sou <span>Erick Sugiyama</span>",
         heroSubtitle: "Desenvolvedor • Cientista de Dados • Criador de Projetos",
         heroBtn: "Ver Projetos",
         sobreTitulo: "Sobre Mim",
@@ -87,12 +87,12 @@ const translations = {
     },
 
     en: {
-        logo: "Your Name",
+        logo: "Professional Portfolio",
         menuSobre: "About",
         menuSkills: "Skills",
         menuProjetos: "Projects",
         menuContato: "Contact",
-        heroTitle: "Hello! I am <span>Your Name</span>",
+        heroTitle: "Hello! I am <span>Erick Sugiayama</span>",
         heroSubtitle: "Developer • Data Scientist • Project Creator",
         heroBtn: "View Projects",
         sobreTitulo: "About Me",
