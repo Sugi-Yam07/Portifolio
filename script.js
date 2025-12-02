@@ -133,3 +133,21 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
         if (section) section.scrollIntoView({ behavior: "smooth" });
     });
 });
+
+/* ------------------ SCROLL REVEAL AVANÇADO ------------------ */
+function revealOnScroll() {
+    const reveals = document.querySelectorAll(".reveal");
+
+    reveals.forEach(el => {
+        const windowHeight = window.innerHeight;
+        const elementTop = el.getBoundingClientRect().top;
+        const revealPoint = 120;
+
+        if (elementTop < windowHeight - revealPoint) {
+            el.classList.add("visible");
+        }
+    });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+window.addEventListener("load", revealOnScroll);
